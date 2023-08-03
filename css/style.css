@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 16px; margin: 0
+}
+header{
+	width: 100%; height: 50px;
+}
+.dflex{
+	display: flex
+}
+.jaround{
+	justify-content: space-around
+}
+.jbetween{
+	justify-content: space-between
+}
+.jcenter{
+	justify-content: center
+}
+.fcolumn{
+	flex-direction: column
+}
+/*Header stuff*/
+.logo{
+	width: 15%;
+}
+.logoimg{
+	width: 100%; margin: auto; padding-top: 10px
+}
+.iconimg{
+	width: 10%; margin: 0; padding-top: 10px
+}
+.menu ul{
+	list-style: none; display: flex;margin: 0; padding: 12px
+}
+.menu ul li a{
+	text-decoration: none; padding: 10px 20px; color: #505050;
+}
+.menu ul li a:hover{
+	background-color: #945336; border-radius: 5px; color: aliceblue
+}
+/*Header end*/
+/*banner*/
+#banner{
+	width: 100%
+}
+/*banner end*/
+/*san pham*/
+.container h1{
+	text-align: center; text-decoration: underline solid; text-decoration-color: darkred; font-size: 30px
+}
+.sp{
+	border: solid darkred 1px; min-height: 200px;
+}
+.t-red{
+	color: red; padding-top: 6px
+}
+/*sp end*/
+/*Banner & chữ*/
+#product{
+	width: 100%; min-height: 600px; background-image: url("../images/bg2.png"); background-repeat: no-repeat; background-size: cover; background-position: center bottom
+}
+.container h2{
+	text-align: center; text-decoration: underline solid; text-decoration-color: darkred; font-size: 30px; padding-top: 40px
+}
+.vien{
+	width: 100%; border: solid 1px white; text-align: center
+}
+.vien h4{
+	color: darkred; font-size: 18px
+}
+.vien a{
+	text-decoration: none; color: darkred
+}
+.vien a:hover{
+	color: white
+}
+.vien:hover{
+	box-shadow: 5px 5px 10px gray
+}
+/*banner2 end*/
+/*Blog*/
+#blog h3{
+	font-size: 25px
+}
+.text{
+	width: 30%; padding-top: 10px; padding-left: 10px
+}
+.imgblog{
+	width: 100%; 
+}
+.center{
+	display: flex; align-items: center; justify-content: center
+}
+.dred{
+	color: darkred
+}
+/*blog end*/
+#contact{
+	width: 100%; min-height: 400px; background: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover;background-position: center center
+}
+#contact h1{
+	padding-top: 25px
+}
+.shadow{
+	width: 100%; min-height: 300px; padding: 20px; box-shadow: 5px 5px 5px lightgray; border: 1px solid lightgray
+}
